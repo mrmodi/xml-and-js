@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Example</title>
+<link rel="stylesheet" href="/week-1/assignments/evaluation-2/form.css">
+<script src="/week-1/assignments/evaluation-2/form.js"></script>
+</head>
+<body>
+    <h1>FEEDBACK FORM</h1>
+<div class="container">
+    <form name="form1" id="frm">
+        <b>Email:</b> 
+            <input type="text" name="email"><br/>
+        <p><b>Date of Visit:<b>
+             <input type="date" name="dov" value="mm/dd/yyyy">
+        </p>
+        <label for="subject">Your Comment:</label>
+       
+        <textarea id="subject" name="subject"  style="height:150px"></textarea>
+    </form>
+   
+    <button onclick="display()">Send your Feedback</button>
+
+        <h2 id="res"></h2>
+</div>
+</body>
+</html>

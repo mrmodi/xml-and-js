@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewDataSet>
+    <Tabel>
+        <Empno>1001</Emono>
+        <Empname>Alex</Empname>
+        <Salary>3000</Salary>
+    </Table>
+    <Tabel>
+        <Empno>1002</Emono>
+        <Empname>Sarah</Empname>
+        <Salary>4000</Salary>
+    </Table>
+    <Tabel>
+        <Empno>1003</Emono>
+        <Empname>Peter</Empname>
+        <Salary>3500</Salary>
+    </Table>
+</NewDataSet>​

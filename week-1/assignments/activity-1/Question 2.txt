@@ -1,0 +1,4 @@
+In Question 2 If We need to create an XML file for group of 10 people for that we need to make one root node(Info).
+After that we need make node for each person for ex. person1, person2,.. etc.
+After that We have to make two node for name and hobies for each person node.
+SO, this is the way we can make XML file for Info of 10 people.

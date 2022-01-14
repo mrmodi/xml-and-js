@@ -1,0 +1,4 @@
+First When I try to Open XML file into Excel worksheet it was first ask that I Would like to open xml file.
+The Options are As an XML Table, As a read-only workbook and use XML Source task pane.
+After Click on the As an XML Table button It's showing an error.
+It's showing XML Parse Error.

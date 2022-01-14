@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Info>
+<person1>
+<name>Manan</name>
+<hobbies>listen music and play cricket</hobbies>
+</person1>
+<person2>
+<name>yash</name>
+<hobbies>computer Games</hobbies>
+</person2>
+<person3>
+<name>vidhi</name>
+<hobbies>love to do painting</hobbies>
+</person3>
+<person4>
+<name>Mazz</name>
+<hobbies>play cricket</hobbies>
+</person4>
+<person5>
+<name>camila</name>
+<hobbies>dancing</hobbies>
+</person5>
+<person6>
+<name>novel</name>
+<hobbies>photography</hobbies>
+</person6>
+<person7>
+<name>jeff</name>
+<hobbies>Play tennish</hobbies>
+</person7>
+<person8>
+<name>Sunny</name>
+<hobbies>Listen Music</hobbies>
+</person8>
+<person9>
+<name>Raj</name>
+<hobbies>Love to do coding</hobbies>
+</person9>
+<person10>
+<name>Meet</name>
+<hobbies>Love to play football</hobbies>
+</person10>
+</Info>
