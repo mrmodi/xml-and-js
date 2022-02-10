@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML Form</title>
+		<script language="JavaScript">
+			function logResults(event) {
+				event.preventDefault();
+				const form = event.target;
+
+				const fname = form.fname.value;
+				const coding = form.coding.value;
+				const inputValue = form.cuisine;
+				let cuisine= "";
+				for (let i = 0; inputValue[i]; ++i) {
+					if (inputValue[i].checked) {
+						cuisine += inputValue[i].value + " ";
+					}
+				}
+				console.log(`Name: ${fname}`);
+				console.log(`Favorite Coding language: ${coding}`);
+				console.log(`Favourite cuisine: ${cuisine}`);
+			}
+		</script>
+        
+	</head>
+	<body>
+		<form onSubmit="logResults(event)" action="" method="get">
+			<label for="fname">Enter your Name:- </label>
+			<input type="text" name="fname" value="" />
+        <br />
+			<p>Favourite Coding language:- </p>
+			<input type="radio" name="coding" id="C#" value="C#" />
+			<label for="HTML">C#</label>
+			<input type="radio" name="coding" id="JAVA" value="JAVA" />
+			<label for="CSS">JAVA</label>
+			<input type="radio" name="coding" id="JavaScript" value="JavaScript" />
+			<label for="JavaScript">JavaScript</label>
+        <br />
+			<p>Favourite Cuisine:- </p>
+			<input type="checkbox" name="cuisine" id="Italian" value="Italian" />
+			<label for="Juice">Italian</label>
+			<input type="checkbox" name="cuisine" id="Japanese" value="Japanese" />
+			<label for="mocha">Japanese</label>
+			<input type="checkbox" name="cuisine" id="Thai" value="Thai" />
+			<label for="Tea">Thai</label>
+		<br />
+			
+			<button type="ok">Click ok</button>
+		</form>
+	</body>
+</html>
