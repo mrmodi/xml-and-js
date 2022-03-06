@@ -1,0 +1,23 @@
+<!--
+    Submitted By:
+        name: Manan Shirishbhai Modi 
+        Humber ID: N01494916 
+        Section: XML and Java Script - ITC-5202-0IA
+        Project - 1 - project1.dtd 
+-->
+<!ELEMENT passengers (passenger+)>
+<!ELEMENT passenger (ticket, name, gender, age)>
+<!ATTLIST passenger id ID #REQUIRED>
+<!ATTLIST passenger passengerClass (1|2|3) "1">
+<!ELEMENT ticket (#PCDATA)>
+<!ATTLIST ticket fare CDATA "">
+<!ATTLIST ticket foodIncluded (Y|N) "N">
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name nameId ID #REQUIRED>
+<!ATTLIST name initial CDATA "default">
+<!ELEMENT gender (#PCDATA)>
+<!ATTLIST gender genderId ID #REQUIRED>
+<!ATTLIST gender type (female|male) "female">
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST age ageId ID #REQUIRED>
+<!ATTLIST age group (child|teenage|young|middle|senior) "child">

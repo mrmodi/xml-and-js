@@ -1,0 +1,127 @@
+/*
+    Submitted By:
+        name: Bhavika Jagdishbhai Patel 
+        Humber ID: N01432720 
+        Section: XML and Java Script - ITC-5202-0IA
+        Project - 1 - project1.css 
+*/
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 22px;
+}
+
+tr {
+    height: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #e2e1e1;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+fieldset {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background-color: rgb(250, 249, 249);
+}
+
+legend {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(133, 1, 78);
+    color: white;
+    font-size: 30px;
+}
+
+.label-demo {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 12px;
+}
+
+#lblDisplayError {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+
+#chkClass1 {
+    margin-left: 75px;
+}
+
+#chkFare30 {
+    margin-left: 85px;
+}
+
+#female {
+    margin-left: 115px;
+}
+
+#Yes {
+    margin-left: 100px;
+}
+
+select {
+    width: 120px;
+    height: 25px;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 25px;
+    margin-left: 40px;
+}
+
+.labelCheckbox {
+    margin-right: 20px;
+}
+
+button[type="submit"] {
+    width: 20%;
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    color: white;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+button[type="reset"] {
+    width: 20%;
+    background-color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    color: white;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}

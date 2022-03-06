@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Submitted By:
+        name: Bhavika Jagdishbhai Patel 
+        Humber ID: N01432720 
+        Section: XML and Java Script - ITC-5202-0IA
+        Project - 1 - project1.html  
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - N01432720 - Bhavika Patel</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <h1>Project 1</h1>
+    <h2>Passenger Records of the Ship</h2><br/>
+
+    <fieldset>
+        <legend> Apply Filter Here </legend>
+        <form onreset="onReset()">
+            <br />
+            
+            <!--search box for passenger name-->
+            <label class="label-demo" for="txtFilter">Search Passenger Name: </label>
+            <input type="text" name="filterText" id="txtFilter" placeholder="Enter name here"><br /><br />
+
+            <!--checkbox box : Passenger Age-->
+            <label class="label-demo">Select Coach  Type: &nbsp;</label>
+            <input type="checkbox" name="passengerClass" id="chkClass1" value="1">
+            <label class="labelCheckbox" for="chkClass1">Class 1</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="passengerClass" id="chkClass2" value="2">
+            <label class="labelCheckbox" for="chkClass2">Class 2</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="passengerClass" id="chkClass3" value="3">
+            <label class="labelCheckbox" for="chkClass3">Class 3</label><br /><br />
+
+            <!--checkbox box : Passenger Ticket Fare-->
+            <label class="label-demo">Select Ticket Fare: </label>
+            <input type="checkbox" id="chkFare30" name="ticketFare" value="30">
+            <label class="labelCheckbox" for="chkFare30">Upto 30$</label>
+            <input type="checkbox" id="chkFare60" name="ticketFare" value="60">
+            <label class="labelCheckbox" for="chkFare60">Upto 60$</label>
+            <input type="checkbox" id="chkFare90" name="ticketFare" value="90">
+            <label class="labelCheckbox" for="chkFare90">Upto 90$</label><br /><br />
+
+            <!--radio button for gender-->
+            <label class="label-demo" for="radioGender">Select Gender: </label>
+            <input type="radio" id="female" name="radioGender" value="female" checked>
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="radioGender" value="male">
+            <label for="male">Male</label><br /><br />
+            
+            <!--radio button for Food Included-->
+            <label class="label-demo" for="radioFood">Food Included?: </label>
+            <input type="radio" id="Yes" name="radioFood" value="Y" checked>
+            <label for="Yes">Yes</label>
+            <input type="radio" id="No" name="radioFood" value="N">
+            <label for="No">No</label><br /><br /><br />
+
+            <button class="btnFilter" type="submit">Apply Filter</button>
+            <button class="btnReset" type="reset">Reset</button>
+        </form>
+    </fieldset>
+    <br /><br />
+    <label id="lblDisplayError">No records found!!!!!!!!!</label>
+    <table id="table-main" class="center">
+        <!--    Specify column width here for better table view    -->
+        <col style="width:50px;">
+        <col style="width:300px">
+        <col style="width:180px">
+        <col style="width:50px">
+        <col style="width:50px;">
+        <col style="width:300px">
+        <col style="width:200px">
+        <col style="width:50px">
+        <tr>
+            <th>Passenger ID</th>
+            <th>Passenger Name</th>
+            <th>Passenger Gender</th>
+            <th>Passenger Age</th>
+            <th>Coach</th>
+            <th>Ticket Number</th>
+            <th>Ticket Fare</th>
+            <th>Food Included</th>
+        </tr>
+    </table>
+    <script type="text/javascript" src="project1.js"></script>
+   
+</body>
+<footer>
+    <p><b>Project 1 - Submitted By: </b><br />
+        <span><b>Name:</b> Bhavika Jagdishbhai Patel</span>
+        <span><b>Humber ID:</b> N01432720</span>
+        <span><b>Section:</b> XML and Java Script - ITC-5202-0IA</span>
+    </p>
+</footer>
+</html>

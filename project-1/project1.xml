@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Submitted By:
+        name: Nikhil Patel 
+        Humber ID: N01490223 
+        Section: XML and Java Script - ITC-5202-0IA
+        Project - 1 - project1.xml 
+
+    Submitted By:
+        name: Manan Shirishbhai Modi 
+        Humber ID: N01494916
+        Section: XML and Java Script - ITC-5202-0IA
+        Project - 1 - project1.xml 
+-->
+<!--    Project-1 : Exetrnal DTD    -->
+<!DOCTYPE passengers SYSTEM "project1.dtd">
+<passengers>
+  <passenger id="p892" passengerClass="3">
+    <ticket fare="7.8292" foodIncluded="Y">330911</ticket>
+    <name nameId="n892" initial="KJ">Kelly, Mr. James</name>
+    <gender genderId="g892" type="male">male</gender>
+    <age ageId="a892" group="middle">34.5</age>
+  </passenger>
+  <passenger id="p893" passengerClass="3">
+    <ticket fare="7" foodIncluded="Y">363272</ticket>
+    <name nameId="n893" initial="WJ">Wilkes, Mrs. James (Ellen Needs)</name>
+    <gender genderId="g893" type="female">female</gender>
+    <age ageId="a893" group="middle">47</age>
+  </passenger>
+  <passenger id="p894" passengerClass="2">
+    <ticket fare="9.6875" foodIncluded="Y">240276</ticket>
+    <name nameId="n894" initial="MTF">Myles, Mr. Thomas Francis</name>
+    <gender genderId="g894" type="male">male</gender>
+    <age ageId="a894" group="senior">62</age>
+  </passenger>
+  <passenger id="p895" passengerClass="3">
+    <ticket fare="8.6625" foodIncluded="Y">315154</ticket>
+    <name nameId="n895" initial="WA">Wirz, Mr. Albert</name>
+    <gender genderId="g895" type="male">male</gender>
+    <age ageId="a895" group="young">27</age>
+  </passenger>
+  <passenger id="p896" passengerClass="3">
+    <ticket fare="12.2875" foodIncluded="Y">3101298</ticket>
+    <name nameId="n896" initial="HA">Hirvonen, Mrs. Alexander (Helga E Lindqvist)</name>
+    <gender genderId="g896" type="female">female</gender>
+    <age ageId="a896" group="young">22</age>
+  </passenger>
+  <passenger id="p897" passengerClass="3">
+    <ticket fare="9.225" foodIncluded="Y">7538</ticket>
+    <name nameId="n897" initial="SJC">Svensson, Mr. Johan Cervin</name>
+    <gender genderId="g897" type="male">male</gender>
+    <age ageId="a897" group="teenage">14</age>
+  </passenger>
+  <passenger id="p898" passengerClass="3">
+    <ticket fare="7.6292" foodIncluded="N">330972</ticket>
+    <name nameId="n898" initial="CK">Connolly, Miss. Kate</name>
+    <gender genderId="g898" type="female">female</gender>
+    <age ageId="a898" group="young">30</age>
+  </passenger>
+  <passenger id="p899" passengerClass="2">
+    <ticket fare="29" foodIncluded="Y">248738</ticket>
+    <name nameId="n899" initial="CAF">Caldwell, Mr. Albert Francis</name>
+    <gender genderId="g899" type="male">male</gender>
+    <age ageId="a899" group="young">26</age>
+  </passenger>
+  <passenger id="p900" passengerClass="3">
+    <ticket fare="7.2292" foodIncluded="N">2657</ticket>
+    <name nameId="n900" initial="AJ">Abrahim, Mrs. Joseph (Sophie Halaut Easu)</name>
+    <gender genderId="g900" type="female">female</gender>
+    <age ageId="a900" group="teenage">18</age>
+  </passenger>
+  <passenger id="p901" passengerClass="3">
+    <ticket fare="24.15" foodIncluded="Y">A/4 48871</ticket>
+    <name nameId="n901" initial="DJS">Davies, Mr. John Samuel</name>
+    <gender genderId="g901" type="male">male</gender>
+    <age ageId="a901" group="young">21</age>
+  </passenger>
+  <passenger id="p902" passengerClass="3">
+    <ticket fare="7.8958" foodIncluded="N">349220</ticket>
+    <name nameId="n902" initial="IY">Ilieff, Mr. Ylio</name>
+    <gender genderId="g902" type="male">male</gender>
+    <age ageId="a902" group="teenage">18</age>
+  </passenger>
+  <passenger id="p903" passengerClass="1">
+    <ticket fare="26" foodIncluded="Y">694</ticket>
+    <name nameId="n903" initial="JCC">Jones, Mr. Charles Cresson</name>
+    <gender genderId="g903" type="male">male</gender>
+    <age ageId="a903" group="middle">46</age>
+  </passenger>
+  <passenger id="p904" passengerClass="1">
+    <ticket fare="82.2667" foodIncluded="Y">694</ticket>
+    <name nameId="n904" initial="SJP">Snyder, Mrs. John Pillsbury (Nelle Stevenson)</name>
+    <gender genderId="g904" type="male">male</gender>
+    <age ageId="a904" group="young">23</age>
+  </passenger>
+  <passenger id="p905" passengerClass="2">
+    <ticket fare="26" foodIncluded="Y">24065</ticket>
+    <name nameId="n905" initial="HB">Howard, Mr. Benjamin</name>
+    <gender genderId="g905" type="male">male</gender>
+    <age ageId="a905" group="senior">63</age>
+  </passenger>
+  <passenger id="p906" passengerClass="1">
+    <ticket fare="61.175" foodIncluded="Y">W.E.P. 5734</ticket>
+    <name nameId="n906" initial="CHF">Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood)</name>
+    <gender genderId="g906" type="female">female</gender>
+    <age ageId="a906" group="middle">47</age>
+  </passenger>
+  <passenger id="p907" passengerClass="2">
+    <ticket fare="27.7208" foodIncluded="Y">SC/PARIS 2167</ticket>
+    <name nameId="n907" initial="ACS">Adel Carlo, Mrs. Sebastiano (Argenia Genovesi)</name>
+    <gender genderId="g907" type="female">female</gender>
+    <age ageId="a907" group="young">24</age>
+  </passenger>
+  <passenger id="p908" passengerClass="2">
+    <ticket fare="12.35" foodIncluded="N">233734</ticket>
+    <name nameId="n908" initial="KD">Keane, Mr. Daniel</name>
+    <gender genderId="g908" type="male">male</gender>
+    <age ageId="a908" group="middle">35</age>
+  </passenger>
+  <passenger id="p909" passengerClass="3">
+    <ticket fare="7.225" foodIncluded="N">2692</ticket>
+    <name nameId="n909" initial="AG">Assaf, Mr. Gerios</name>
+    <gender genderId="g909" type="male">male</gender>
+    <age ageId="a909" group="young">21</age>
+  </passenger>
+  <passenger id="p910" passengerClass="3">
+    <ticket fare="7.925" foodIncluded="N">STON/O2. 3101270</ticket>
+    <name nameId="n910" initial="IDL">Ilmakangas, Miss. Ida Livija</name>
+    <gender genderId="g910" type="female">female</gender>
+    <age ageId="a910" group="young">27</age>
+  </passenger>
+  <passenger id="p911" passengerClass="3">
+    <ticket fare="7.225" foodIncluded="N">2696</ticket>
+    <name nameId="n911" initial="AKM">Assaf Khalil, Mrs. Mariana (Miriam&quot;)&quot;</name>
+    <gender genderId="g911" type="female">female</gender>
+    <age ageId="a911" group="middle">45</age>
+  </passenger>
+  <passenger id="p912" passengerClass="1">
+    <ticket fare="59.4" foodIncluded="Y">PC 17603</ticket>
+    <name nameId="n912" initial="RM">Rothschild, Mr. Martin</name>
+    <gender genderId="g912" type="male">male</gender>
+    <age ageId="a912" group="senior">55</age>
+  </passenger>
+  <passenger id="p913" passengerClass="3">
+    <ticket fare="3.1708" foodIncluded="N">C 17368</ticket>
+    <name nameId="n913" initial="OAK">Olsen, Master. Artur Karl</name>
+    <gender genderId="g913" type="male">male</gender>
+    <age ageId="a913" group="child">9</age>
+  </passenger>
+  <passenger id="p914" passengerClass="1">
+    <ticket fare="31.6833" foodIncluded="Y">PC 17598</ticket>
+    <name nameId="n914" initial="FA">Flegenheim, Mrs. Alfred (Antoinette)</name>
+    <gender genderId="g914" type="female">female</gender>
+    <age ageId="a914" group="middle">35</age>
+  </passenger>
+  <passenger id="p915" passengerClass="1">
+    <ticket fare="61.3792" foodIncluded="Y">PC 17597</ticket>
+    <name nameId="n915" initial="WRN">Williams, Mr. Richard Norris II</name>
+    <gender genderId="g915" type="male">male</gender>
+    <age ageId="a915" group="young">21</age>
+  </passenger>
+  <passenger id="p916" passengerClass="1">
+    <ticket fare="262.375" foodIncluded="Y">PC 17608</ticket>
+    <name nameId="n916" initial="RAL">Ryerson, Mrs. Arthur Larned (Emily Maria Borie)</name>
+    <gender genderId="g916" type="female">female</gender>
+    <age ageId="a916" group="middle">48</age>
+  </passenger>
+  <passenger id="p917" passengerClass="3">
+    <ticket fare="14.5" foodIncluded="N">A/5. 3337</ticket>
+    <name nameId="n917" initial="RAA">Robins, Mr. Alexander A</name>
+    <gender genderId="g917" type="male">male</gender>
+    <age ageId="a917" group="middle">50</age>
+  </passenger>
+  <passenger id="p918" passengerClass="1">
+    <ticket fare="61.9792" foodIncluded="Y">113509</ticket>
+    <name nameId="n918" initial="OHR">Ostby, Miss. Helene Ragnhild</name>
+    <gender genderId="g918" type="female">female</gender>
+    <age ageId="a918" group="young">22</age>
+  </passenger>
+  <passenger id="p919" passengerClass="3">
+    <ticket fare="7.225" foodIncluded="Y">2698</ticket>
+    <name nameId="n919" initial="DS">Daher, Mr. Shedid</name>
+    <gender genderId="g919" type="male">male</gender>
+    <age ageId="a919" group="young">22.5</age>
+  </passenger>
+  <passenger id="p920" passengerClass="1">
+    <ticket fare="30.5" foodIncluded="Y">113054</ticket>
+    <name nameId="n920" initial="BJB">Brady, Mr. John Bertram</name>
+    <gender genderId="g920" type="male">male</gender>
+    <age ageId="a920" group="middle">41</age>
+  </passenger>
+  <passenger id="p921" passengerClass="3">
+    <ticket fare="21.6792" foodIncluded="N">2662</ticket>
+    <name nameId="n921" initial="SE">Samaan, Mr. Elias</name>
+    <gender genderId="g921" type="male">male</gender>
+    <age ageId="a921" group="young">28</age>
+  </passenger>
+  <passenger id="p922" passengerClass="2">
+    <ticket fare="26" foodIncluded="Y">SC/AH 3085</ticket>
+    <name nameId="n922" initial="LCA">Louch, Mr. Charles Alexander</name>
+    <gender genderId="g922" type="male">male</gender>
+    <age ageId="a922" group="middle">50</age>
+  </passenger>
+  <passenger id="p923" passengerClass="2">
+    <ticket fare="31.5" foodIncluded="Y">C.A. 31029</ticket>
+    <name nameId="n923" initial="JCT">Jefferys, Mr. Clifford Thomas</name>
+    <gender genderId="g923" type="male">male</gender>
+    <age ageId="a923" group="young">24</age>
+  </passenger>
+  <passenger id="p924" passengerClass="3">
+    <ticket fare="20.575" foodIncluded="Y">C.A. 2315</ticket>
+    <name nameId="n924" initial="DB">Dean, Mrs. Bertram (Eva Georgetta Light)</name>
+    <gender genderId="g924" type="female">female</gender>
+    <age ageId="a924" group="young">33</age>
+  </passenger>
+    <passenger id="p925" passengerClass="3">
+    <ticket fare="23.45" foodIncluded="N">W./C. 6607</ticket>
+    <name nameId="n925" initial="JAG">Johnston, Mrs. Andrew G (Elizabeth Lily&quot; Watson)&quot;</name>
+    <gender genderId="g925" type="female">female</gender>
+    <age ageId="a925" group="young">25</age>
+  </passenger>
+  <passenger id="p926" passengerClass="1">
+    <ticket fare="57.75" foodIncluded="Y">13236</ticket>
+    <name nameId="n926" initial="MPE">Mock, Mr. Philipp Edmund</name>
+    <gender genderId="g926" type="male">male</gender>
+    <age ageId="a926" group="young">30</age>
+  </passenger>
+  <passenger id="p927" passengerClass="3">
+    <ticket fare="7.2292" foodIncluded="N">2682</ticket>
+    <name nameId="n927" initial="KV">Katavelas, Mr. Vassilios (Catavelas Vassilios&quot;)&quot;</name>
+    <gender genderId="g927" type="male">male</gender>
+    <age ageId="a927" group="teenage">18.5</age>
+  </passenger>
+  <passenger id="p928" passengerClass="3">
+    <ticket fare="8.05" foodIncluded="N">342712</ticket>
+    <name nameId="n928" initial="RSA">Roth, Miss. Sarah A</name>
+    <gender genderId="g928" type="female">female</gender>
+    <age ageId="a928" group="young">34</age>
+  </passenger>
+  <passenger id="p929" passengerClass="3">
+    <ticket fare="8.6625" foodIncluded="N">315087</ticket>
+    <name nameId="n929" initial="CM">Cacic, Miss. Manda</name>
+    <gender genderId="g929" type="female">female</gender>
+    <age ageId="a929" group="young">21</age>
+  </passenger>
+  <passenger id="p930" passengerClass="3">
+    <ticket fare="9.5" foodIncluded="N">345768</ticket>
+    <name nameId="n930" initial="SJ">Sap, Mr. Julius</name>
+    <gender genderId="g930" type="male">male</gender>
+    <age ageId="a930" group="young">25</age>
+  </passenger>
+  <passenger id="p931" passengerClass="3">
+    <ticket fare="56.4958" foodIncluded="Y">1601</ticket>
+    <name nameId="n931" initial="HL">Hee, Mr. Ling</name>
+    <gender genderId="g931" type="male">male</gender>
+    <age ageId="a931" group="young">26</age>
+  </passenger>
+  <passenger id="p932" passengerClass="3">
+    <ticket fare="9.5012" foodIncluded="N">345768</ticket>
+    <name nameId="n932" initial="SJ">Sapezed, Mr. Julius</name>
+    <gender genderId="g932" type="male">male</gender>
+    <age ageId="a932" group="young">29</age>
+  </passenger>
+  <passenger id="p933" passengerClass="2">
+    <ticket fare="6.4958" foodIncluded="N">156325</ticket>
+    <name nameId="n933" initial="ZL">Zedeeee, Miss. Ling</name>
+    <gender genderId="g933" type="female">female</gender>
+    <age ageId="a933" group="young">26</age>
+  </passenger>
+  <passenger id="p934" passengerClass="1">
+    <ticket fare="46.4958" foodIncluded="Y">123456</ticket>
+    <name nameId="n934" initial="DY">Devel, Miss. Yahoo</name>
+    <gender genderId="g934" type="female">female</gender>
+    <age ageId="a934" group="young">29</age>
+  </passenger>
+    <passenger id="p935" passengerClass="2">
+    <ticket fare="16.4958" foodIncluded="Y">156325</ticket>
+    <name nameId="n935" initial="BL">Bhoomika, Miss. Ling</name>
+    <gender genderId="g935" type="female">female</gender>
+    <age ageId="a935" group="young">29</age>
+  </passenger>
+  <passenger id="p936" passengerClass="2">
+    <ticket fare="26.4958" foodIncluded="Y">123456</ticket>
+    <name nameId="n936" initial="DL">Deyan, Miss. Love</name>
+    <gender genderId="g936" type="female">female</gender>
+    <age ageId="a936" group="young">25</age>
+  </passenger>
+</passengers>
