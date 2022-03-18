@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment</title>
+        
+    </head>
+<body>
+
+    <form onsubmit="Submit(event)" onreset="Reset()">
+        <input type="text"
+         name="name" 
+         id="name" 
+        placeholder="Enter the name to search"/>
+        <button type="Submit">Apply Filter</button>
+        <button type="Reset">Reset</button>
+    </form>
+
+
+    <table>
+        <table style="color:rgb(30, 1, 49);">
+            <tbody id="table"></tbody>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Gender</td>
+                <td>IP Address</td>
+            </tr>
+        </thead>
+    </table>
+    
+    <script src="assignment.js"></script>
+</body>
+</html>
