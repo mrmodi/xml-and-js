@@ -9,11 +9,11 @@ const getAll = ({ id, first_name,last_name,description, price }) =>
     }
 
     if (first_name) {
-      result = result.filter((item) => item.name === first_name);
+      result = result.filter((item) => item.first_name === first_name);
     }
 
     if (last_name) {
-        result = result.filter((item) => item.name === last_name);
+        result = result.filter((item) => item.last_name === last_name);
       }
 
     if (description) {
