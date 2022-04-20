@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 2</title>
+        <link rel="stylesheet" href="../Styles/index.css"/>
+    </head>
+    <body>
+        <h1>Car Manufacturing</h1>
+        <form id="myForm" >
+            <input type="text" name="input" id="input-value-term" placeholder="Enter value..."/>
+            <select name="filters" id="filter">
+                <option value="none">None</option>
+                <option value="car_vin">Car VIN</option>
+                <option value="car_manufacturer">Car Manufacturer</option>
+                <option value="car_model">Car Model</option>
+                <option value="car_model_year">car Model Year</option>
+            </select>
+            
+           
+                <legend>Car Manufacturing Year</legend>
+                <input type="text" name="manufacturing_from" placeholder="1970"/>
+                to
+                <input type="text" name="manufacturing_to" placeholder="2022"/>
+            
+
+            
+            <br/>
+            <input type="submit" value="Filter"/>
+            <input type="reset" value="Reset"/>
+        </form>
+        <table>
+            <thead>
+              <th>Car VIN</th>
+              <th>Car Manufacturer</th>
+              <th>Car Model</th>
+              <th>Car Model Year</th>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+          <script type="text/javascript" src="./bundle.js"></script>
+    </body>
+</html>
