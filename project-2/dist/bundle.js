@@ -1,7 +1,7 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
     const cars = require("../data/MOCK_DATA.json");
 
-    const getAllCars = (term,valueTerm) =>
+    const getAllCars = (term,manufacturing_from,manufacturing_to,valueTerm) =>
   new Promise((resolve) => {
     let data = Array.from(cars);
 
@@ -9,16 +9,16 @@
 
         switch(term) {
             case "car_vin":
-                data = data.filter((car) => cars.car_vin.toLowerCase().includes(valueTerm));
+                data = data.filter((car) => car.car_vin.toLowerCase().includes(valueTerm));
                 break;
             case "car_manufacturer":
-                data = data.filter((car) => cars.car_manufacturer.toLowerCase().includes(valueTerm));
+                data = data.filter((car) => car.car_manufacturer.toLowerCase().includes(valueTerm));
                 break;
             case "car_model":
-                data = data.filter((car) => cars.car_model.toLowerCase().includes(valueTerm));
+                data = data.filter((car) => car.car_model.toLowerCase().includes(valueTerm));
                 break;
             case "car_model_year":
-                data = data.filter((car) => cars.car_model_year.toLowerCase().includes(valueTerm));
+                data = data.filter((car) => car.car_model_year.toLowerCase().includes(valueTerm));
                
             default:
                 // do nothing
@@ -27,15 +27,15 @@
     }
 
    // filter cost range
-   /* if (manufacturing_from && manufacturing_from != "" && manufacturing_to && manufacturing_to != "") {
-        data = data.filter((car) => cars.car_model_year >= manufacturing_from  && cars.car_model_year <= manufacturing_to);
-    }*/
+   if (manufacturing_from && manufacturing_from !== "" && manufacturing_to && manufacturing_to !== "") {
+        data = data.filter((car) => car.car_model_year >= manufacturing_from  && car.car_model_year <= manufacturing_to);
+    }
         resolve({ caode:200,data: data });
     });
 
     const getByVin = (car_vin) =>
   new Promise((resolve) => {
-    const car = cars.find((car_vin) => car.car_vin === car_vin);
+    const car = cars.find((car) => car.car_vin === car_vin);
 
     if (car) {
         resolve({data: Array(car) });
@@ -254,7 +254,7 @@ module.exports = {
     {"car_vin":"1N4AA5AP9DC830965","car_manufacturer":"Jaguar","car_model":"XJ Series","car_model_year":1995}]
 
  },{}],3:[function(require,module,exports) {
-    const { getAllCars, getByVin } = require("./api/controller/car");
+    const { getAllCars, getByVin } = require("./api/car");
 
     const renderTable = (data) => {
         const tableBody = document.getElementById("table-body");
@@ -284,8 +284,8 @@ module.exports = {
             event.preventDefault();
             const term = event.target.filters.value;
           
-            //const manufacturing_from = event.target.manufacturing_from.value;
-            //const manufacturing_to = event.target.manufacturing_to.value;
+            const manufacturing_from = event.target.manufacturing_from.value;
+            const manufacturing_to = event.target.manufacturing_to.value;
            
                     
             const valueTerm = event.target.input.value;
@@ -306,5 +306,4 @@ module.exports = {
           document.getElementById("myForm").addEventListener("submit", onSubmit);
           document.getElementById("myForm").addEventListener("reset", onReset);
           
-          },{"./api/controller/car":1}]},{},[3]);
-
+          },{"./api/car":1}]},{},[3]);

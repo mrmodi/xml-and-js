@@ -1,5 +1,5 @@
 const cars = require("../data/MOCK_DATA.json");
-const getAllCars = (term, valueTerm) =>
+const getAllCars = (term, car_vin ,car_manufacturer,manufacturing_from, manufacturing_to,car_model ,car_model_year, valueTerm) =>
 new Promise((resolve) => {
   let data = array.form(cars);
 
@@ -7,16 +7,16 @@ new Promise((resolve) => {
 
       switch(term) {
           case "car_vin":
-              data = data.filter((car) => car.car_vin.toLowerCase().includes(valueTerm));
+              data = data.filter((car) => cars.car_vin.toLowerCase().includes(valueTerm));
               break;
           case "car_manufacturer":
-              data = data.filter((car) => car.car_manufacturer.toLowerCase().includes(valueTerm));
+              data = data.filter((car) => cars.car_manufacturer.toLowerCase().includes(valueTerm));
               break;
           case "car_model":
-              data = data.filter((car) => car.car_model.toLowerCase().includes(valueTerm));
+              data = data.filter((car) => cars.car_model.toLowerCase().includes(valueTerm));
               break;
           case "car_model_year":
-              data = data.filter((car) => car.car_model_year.toLowerCase().includes(valueTerm));
+              data = data.filter((car) => cars.car_model_year.toLowerCase().includes(valueTerm));
              
           default:
               // do nothing
