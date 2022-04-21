@@ -24,7 +24,7 @@ new Promise((resolve) => {
       }
   }
 
- // filter year range
+ // filter car model year range
   if (manufacturing_from && manufacturing_from != "" && manufacturing_to && manufacturing_to != "") {
       data = data.filter(({car_model_year}) => car_model_year >= manufacturing_from && car_model_year <= manufacturing_to);
   }

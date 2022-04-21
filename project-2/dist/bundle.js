@@ -26,7 +26,7 @@
         }
     }
 
-   // filter cost range
+   // filter car model year range
    if (manufacturing_from && manufacturing_from !== "" && manufacturing_to && manufacturing_to !== "") {
         data = data.filter((car) => car.car_model_year >= manufacturing_from  && car.car_model_year <= manufacturing_to);
     }
